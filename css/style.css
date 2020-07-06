@@ -6,6 +6,7 @@
 }
 
 a {
+  font-size: 3vh;
   text-decoration: none;
   color: rgb(139, 149, 158);
 }
@@ -23,7 +24,7 @@ a {
 
 /* logo */
 #navbar .logo {
-  margin-right: 50px;
+  margin-right: 80px;
 }
 
 #navbar .logo a img {
@@ -33,7 +34,7 @@ a {
 /* navbar-list */
 #navbar .navbar-list li {
   display: inline-block;
-  margin: 0 15px;
+  margin: 0 25px;
 }
 
 #navbar .navbar-list li a:hover {
@@ -41,3 +42,17 @@ a {
 }
 
 /* button */
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 120px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.button a {
+  color: white;
+}
