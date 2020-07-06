@@ -5,17 +5,39 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(139, 149, 158);
+}
+
 /* NAVBAR */
 #navbar {
   display: flex;
   align-items: center;
   height: 70px;
-  width: 100;
-  padding: 0 90px;
+  width: 100%;
+  padding: 0 10%;
   /* debug */
   background-color: yellow;
+}
+
+/* logo */
+#navbar .logo {
+  margin-right: 50px;
 }
 
 #navbar .logo a img {
   height: 4vh;
 }
+
+/* navbar-list */
+#navbar .navbar-list li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+#navbar .navbar-list li a:hover {
+  color: black;
+}
+
+/* button */
