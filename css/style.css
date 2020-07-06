@@ -4,3 +4,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* NAVBAR */
+#navbar {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  width: 100;
+  padding: 0 90px;
+  /* debug */
+  background-color: yellow;
+}
+
+#navbar .logo a img {
+  height: 4vh;
+}
