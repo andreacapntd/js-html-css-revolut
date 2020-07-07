@@ -1,5 +1,5 @@
 $(document).ready(function() {
   $('.parent-down').hover(function() {
-    $(this).children('.dropdown').toggle();
+    $(this).children('.header-menu-icon').toggleClass('hidden', 'active');
   });
 });

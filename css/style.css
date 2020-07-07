@@ -12,6 +12,13 @@ a {
   color: rgb(139, 149, 158);
 }
 
+.active {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
 /* NAVBAR */
 #navbar {
   display: flex;
@@ -55,7 +62,6 @@ a {
   position: absolute;
   top: 35px;
   right: -200px;
-  /* display: none; */
   filter: drop-shadow(0 -3px 4px #ccc);
 }
 
