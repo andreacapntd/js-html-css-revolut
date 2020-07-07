@@ -55,7 +55,7 @@ a {
   top: 35px;
   right: -150px;
   z-index: 3;
-  /* display: none; */
+  display: none;
   filter: drop-shadow(0 -3px 4px #ccc);
 }
 
