@@ -46,7 +46,7 @@ a {
 
 #navbar .navbar-list li {
   display: inline-block;
-  margin: 0 20px;
+  margin-right: 20px;
 }
 
 #navbar .navbar-list li a:hover {
