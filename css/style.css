@@ -100,6 +100,7 @@ header {
   width: 290px;
   background-color: white;
   border-radius: 10px;
+  z-index: 1;
 }
 
 .dropdown .inner {
@@ -149,4 +150,127 @@ header {
 
 .button a {
   color: white;
+}
+
+/* JUMBOTRON */
+#jumbo {
+  display: flex;
+  height: 600px;
+  width: 100%;
+  padding: 0 10%;
+  margin-top: 80px;
+}
+
+/* title */
+.jumbo-title {
+  width: 40%;
+  height: 100%;
+}
+
+.jumbo-title h1 {
+  font-size: 5rem;
+  padding-top: 30px;
+}
+
+.jumbo-title p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  line-height: 28px;
+  margin-top: 1rem;
+  color: rgb(139, 149, 158);
+}
+
+/* form */
+.jumbo-title .form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.prefix-container {
+  position: relative;
+}
+
+.fa-chevron-down {
+  position: absolute;
+  right: 0;
+  top: 3px;
+  color: rgb(139, 149, 158);
+  font-size: 13px;
+}
+
+.form .prefix {
+  border: none;
+  border-bottom: 1px solid rgb(139, 149, 158);
+  width: 60px;
+  font-size: 1rem;
+  padding-bottom: 5px;
+}
+
+.form .phone-number-container {
+  margin: 0 15px;
+}
+
+.form .phone-number {
+  border: none;
+  border-bottom: 1px solid rgb(139, 149, 158);
+  font-size: 1rem;
+  padding-bottom: 5px;
+}
+
+.form .button-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 120px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(25, 28, 31, 0.84);
+}
+
+.form .button-form span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  color: rgb(139, 149, 158);
+}
+
+/* time icon */
+.time-icon {
+  margin-top: 2rem;
+}
+
+.time-icon span {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 15px;
+}
+
+/* image */
+.jumbo-img {
+  position: relative;
+  width: 60%;
+  height: 100%;
+}
+
+.jumbo-img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+}
+
+.jumbo-img a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.fa-play-circle {
+  font-size: 5rem;
+  color: black;
 }
