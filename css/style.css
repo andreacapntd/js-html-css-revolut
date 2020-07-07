@@ -19,6 +19,7 @@ a {
 .hidden {
   display: none;
 }
+
 /* NAVBAR */
 #navbar {
   display: flex;
@@ -41,11 +42,13 @@ a {
 
 /* navbar-list */
 #navbar .navbar-list{
-  width: 100%
+  width: 100%;
+  display:flex;
+  list-style-type: none;
 }
 
 #navbar .navbar-list li {
-  display: inline-block;
+  /* display: inline-block; */
   margin-right: 20px;
 }
 
@@ -61,33 +64,35 @@ a {
 .dropdown {
   position: absolute;
   top: 20px;
-  right: -200px;
+  right: -93px;
   filter: drop-shadow(0 -3px 4px #ccc);
 }
 
+
 #navbar .navbar-list .header-menu-icon {
   background: white;
-  width: 280px;
-  height: 280px;
   border-radius: 10px;
 }
 
 .dropdown .inner {
   height: 100%;
   width: 100%;
-  padding: 0 30px;
+  padding: 0 10px;
 }
 
+#navbar .dropdown-list {
+  list-style-type: none;
+}
 #navbar .navbar-list .dropdown-list li {
   margin: 0;
-  margin-top: 30px;
+  margin: 20px 0;
 }
 
 .dropdown .inner span {
   display: block;
   color: rgb(220, 227, 232);
   font-size: 1.3rem;
-  margin-top: 30px;
+  margin-bottom: 20px;
 }
 /* button */
 .btn-container {
