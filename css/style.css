@@ -12,12 +12,43 @@ a {
   color: rgb(139, 149, 158);
 }
 
+a:hover {
+ color: black;
+}
+
 .active {
   display: block;
 }
 
 .hidden {
   display: none;
+}
+/* HEADER */
+header {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  padding: 0 10%;
+  background-color: rgb(243, 244, 245);
+}
+
+.header-nav-left, .header-nav-right {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+.header-nav-right {
+ justify-content: flex-end;
+}
+
+.header-nav-right a {
+  margin-left: 20px;
+}
+
+#black {
+  color: black;
+  margin-right: 20px;
 }
 
 /* NAVBAR */
@@ -52,10 +83,6 @@ a {
   margin-right: 20px;
 }
 
-#navbar .navbar-list li a:hover {
-  color: black;
-}
-
 /* Dropdown */
 .parent-down {
   position: relative;
@@ -64,13 +91,14 @@ a {
 .dropdown {
   position: absolute;
   top: 20px;
-  right: -93px;
+  left: 0px;
   filter: drop-shadow(0 -3px 4px #ccc);
 }
 
 
 #navbar .navbar-list .header-menu-icon {
-  background: white;
+  width: 290px;
+  background-color: white;
   border-radius: 10px;
 }
 
