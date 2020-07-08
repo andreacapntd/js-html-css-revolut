@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  padding-bottom: 70px;
+}
+
 a {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
@@ -152,6 +156,33 @@ header {
   color: white;
 }
 
+/* hamburger-menu */
+.hamburger-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* display: none; */
+  width: 100%;
+  height: 100%;
+  min-width: 100vw;
+  min-height: 100vh;
+  background: #2B3F58;
+  z-index: 2;
+}
+
+.nav-hamburger {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  padding: 0 10%;
+  background-color: rgb(243, 244, 245);
+}
+
+.fa-times {
+  font-size: 1.5rem;
+  color: black;
+}
+
 /* JUMBOTRON */
 #jumbo {
   display: flex;
@@ -285,12 +316,25 @@ footer {
 /* MEDIA QUERY XS */
 @media screen and (max-width: 899px) {
 
-  body {
-    padding-bottom: 70px;
-  }
+
 
   /* HEADER */
   header {
+    display: none;
+  }
+
+  /* NAVBAR */
+  #navbar .navbar-list {
+    display: none;
+  }
+
+  /* hamburger */
+  .fa-bars {
+    font-size: 1.5rem;
+  }
+
+  /* button */
+  #navbar .btn-container .button {
     display: none;
   }
 
@@ -361,4 +405,6 @@ footer {
     display: flex;
     justify-content: center;
   }
+
+
 }
