@@ -174,7 +174,7 @@ header {
 
 .jumbo-title p {
   font-family: 'Roboto', sans-serif;
-  font-size: 17px;
+  font-size: 21px;
   line-height: 28px;
   margin-top: 1rem;
   color: rgb(139, 149, 158);
@@ -273,4 +273,11 @@ header {
 .fa-play-circle {
   font-size: 5rem;
   color: black;
+}
+
+/* MEDIA QUERY XS */
+@media screen and (max-width: 899px) {
+  header {
+    display: none;
+  }
 }
