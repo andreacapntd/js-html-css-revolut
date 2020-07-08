@@ -27,6 +27,7 @@ a:hover {
 .hidden {
   display: none;
 }
+
 /* HEADER */
 header {
   display: flex;
@@ -147,6 +148,7 @@ header {
   font-size: 1.3rem;
   margin-bottom: 20px;
 }
+
 /* button */
 .btn-container {
   display: flex;
@@ -155,6 +157,7 @@ header {
   height: 70px;
   width: 100%;
 }
+
 .button {
   display: flex;
   justify-content: center;
@@ -257,6 +260,7 @@ hr {
 #jumbo h2 {
   display: none;
 }
+
 /* title */
 .jumbo-title {
   width: 40%;
@@ -470,6 +474,5 @@ footer {
     display: flex;
     justify-content: center;
   }
-
 
 }
