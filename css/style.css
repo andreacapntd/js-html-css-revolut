@@ -82,7 +82,7 @@ header {
 
 #navbar .navbar-list li {
   /* display: inline-block; */
-  margin-right: 20px;
+  margin-right: 25px;
 }
 
 /* Dropdown */
@@ -93,13 +93,35 @@ header {
 .dropdown {
   position: absolute;
   top: 20px;
-  left: 0px;
   filter: drop-shadow(0 -3px 4px #ccc);
 }
 
+.denaro {
+  left: 0px;
+  width: 210px;
+}
+
+.investimenti {
+  left: -19px;
+  width: 307px;
+}
+
+.controllo {
+  left: -16px;
+  width: 143px;
+}
+
+.altro {
+  left: -25px;
+  width: 230px;
+}
+
+.plans {
+  left: -16px;
+  width: 106px;
+}
 
 #navbar .navbar-list .header-menu-icon {
-  width: 290px;
   background-color: white;
   border-radius: 10px;
   z-index: 1;
@@ -157,6 +179,7 @@ header {
 /* hamburger-menu */
 .hamburger-menu {
   position: absolute;
+  display: none;
   top: 0;
   left: 0;
   width: 100%;
@@ -355,7 +378,9 @@ footer {
 /* MEDIA QUERY XS */
 @media screen and (max-width: 899px) {
 
-
+  .hamburger-menu.show {
+    display: block;
+  }
 
   /* HEADER */
   header {

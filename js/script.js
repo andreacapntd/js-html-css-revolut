@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $('.parent-down').hover(function() {
     console.log($(this).children());
-    $(this).children('.header-menu-icon').toggleClass('hidden', 'active');
+    $(this).children('.dropdown').toggleClass('hidden', 'active');
   });
 
   $('i#item-chevron').click(function() {
@@ -9,11 +9,11 @@ $(document).ready(function() {
   });
 
   $("i.fa-bars").click(function (){
-  $(".hamburger-menu").toggleClass('hidden', 'active');
+  $(".hamburger-menu").toggleClass('show');
   });
 
 
   $("i.fa-times").click(function(){
-  $(".hamburger-menu").toggleClass('hidden', 'active');
+  $(".hamburger-menu").toggleClass('show');
   });
 });
